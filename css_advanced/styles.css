@@ -81,3 +81,46 @@
   font-size: 1rem;
   color: #777;
 }
+.videos {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.videos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.video-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.video-item {
+  width: 300px; /* or use % for responsive design */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.video-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.video-item h3 {
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+.video-item p {
+  font-size: 0.9rem;
+  margin: 0 15px 15px;
+  color: #555;
+}
