@@ -36,7 +36,7 @@
 }
 
 .banner {
-  background: url('images/banner.jpg') no-repeat center center/cover;
+  background: url('images/banner.jpg') 
   color: #fff;
   text-align: center;
   padding: 100px 20px;
@@ -62,7 +62,7 @@
   border-radius: 5px;
 }
 .quote {
-  background-color: #f5f5f5; /* or whatever background Figma shows */
+  background-color: #f5f5f5; 
   padding: 60px 20px;
   text-align: center;
   font-style: italic;
@@ -100,7 +100,7 @@
 }
 
 .video-item {
-  width: 300px; /* or use % for responsive design */
+  width: 300px; 
   background-color: #f9f9f9;
   border-radius: 10px;
   overflow: hidden;
@@ -123,4 +123,36 @@
   font-size: 0.9rem;
   margin: 0 15px 15px;
   color: #555;
+}
+.membership {
+  background-color: #222; 
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.membership p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.membership .btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: #ff5a5f; 
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.membership .btn:hover {
+  background-color: #e14d50; 
+  
 }
