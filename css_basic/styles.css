@@ -1,5 +1,8 @@
 /* Make <body> a flex container arranged in a column */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
     display: flex;
     flex-direction: column;
     height: 100vh; /* fill full height of screen */
@@ -25,6 +28,59 @@ aside {
     flex: 1;
     overflow-y: auto; /* allow scrolling inside */
     padding: 1rem; /* optional spacing */
+}
+
+header {
+    background-color: #004466;
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Style article content */
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
 }
 
 /* Optional basic styling for clarity */
